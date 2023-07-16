@@ -14,7 +14,7 @@
       width: 180px;
       height: 250px;
       text-align: center;
-      margin: 15px;
+      margin: 35px 15px 15px;
       border-radius: 10px;
       position: relative;
       background-color: lightgray;
@@ -51,10 +51,39 @@
       outline: none;
       border: none;
     }
+    
+    /* Top right corner buttons */
+    .buttons {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .button {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: lightgray;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    
+    .title {
+      font-size: 24px;
+      color: white;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="buttons">
+      <a href="https://www.example1.com" class="button"></a>
+      <a href="https://www.example2.com" class="button"></a>
+      <a href="https://www.example3.com" class="button"></a>
+    </div>
+    <h1 class="title">Cat Boxes</h1>
     <div class="box">
       <img src="https://tr.rbxcdn.com/e04978d68f92509335a53a612d7aab46/150/150/Image/Png" alt="Cat">
       <div class="text1">First text box</div>

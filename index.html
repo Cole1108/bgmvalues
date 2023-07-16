@@ -6,10 +6,15 @@
     .box {
       display: inline-block;
       width: 150px;
-      height: 200px;
-      border: 1px solid black;
       text-align: center;
       margin: 5px;
+    }
+    
+    .box img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
     }
   </style>
 </head>
@@ -21,6 +26,12 @@
   </div>
   <!-- Repeat the box divs to create more boxes -->
   <!-- Total of 6 boxes per line -->
+
+  <div class="box">
+    <img src="cat.jpg" alt="Cat">
+    <br>
+    <input type="text" value="Hi">
+  </div>
 
   <div class="box">
     <img src="cat.jpg" alt="Cat">
